@@ -1,5 +1,5 @@
 # nohup python3 /volume1/www/main.py > /volume1/www/nohup_log.log 2>&1 &  //在后台启动
-# ps aux | grep host.py  查看进程 kill pid 结束进程
+# ps aux | grep main.py  查看进程 kill pid 结束进程
 # filename='/volume1/www/url_log.log' 日志文件
 # file_url = '/volumeUSB1/usbshare/ihyuhtml/1.txt' 得到url后保存在这个文件里
 

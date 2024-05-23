@@ -1,4 +1,4 @@
-# nohup python3 /volume1/www/host.py > /volume1/www/nohup_log.log 2>&1 &  //在后台启动
+# nohup python3 /volume1/www/main.py > /volume1/www/nohup_log.log 2>&1 &  //在后台启动
 # ps aux | grep host.py  查看进程 kill pid 结束进程
 # filename='/volume1/www/url_log.log' 日志文件
 # file_url = '/volumeUSB1/usbshare/ihyuhtml/1.txt' 得到url后保存在这个文件里
@@ -72,7 +72,7 @@ def main():
         'Accept-Language': 'zh-CN,zh;q=0.9',
         'Connection': 'keep-alive',
         'Content-Type': 'application/json;charset=UTF-8',
-        'Referer': 'http://192.168.1.9:9200/',
+        'Referer': 'http://192.168.10.9:9200/',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
     }
     json_data = {
